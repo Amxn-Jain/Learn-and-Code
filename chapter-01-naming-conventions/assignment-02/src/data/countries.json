@@ -1,0 +1,74 @@
+{
+  "IN": {
+    "name": "India",
+    "neighbors": ["PK", "CN", "NP", "BT", "BD", "MM"]
+  },
+  "PK": {
+    "name": "Pakistan",
+    "neighbors": ["IN", "AF", "IR", "CN"]
+  },
+  "CN": {
+    "name": "China",
+    "neighbors": ["IN", "PK", "NP", "BT", "MN", "RU"]
+  },
+  "NP": {
+    "name": "Nepal",
+    "neighbors": ["IN", "CN"]
+  },
+  "BT": {
+    "name": "Bhutan",
+    "neighbors": ["IN", "CN"]
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "neighbors": ["IN", "MM"]
+  },
+  "MM": {
+    "name": "Myanmar",
+    "neighbors": ["IN", "BD", "CN", "TH", "LA"]
+  },
+  "US": {
+    "name": "United States",
+    "neighbors": ["CA", "MX"]
+  },
+  "CA": {
+    "name": "Canada",
+    "neighbors": ["US"]
+  },
+  "MX": {
+    "name": "Mexico",
+    "neighbors": ["US", "GT", "BZ"]
+  },
+  "MN": {
+    "name": "Mongolia",
+    "neighbors": ["CN", "RU"]
+  },
+  "RU": {
+    "name": "Russia",
+    "neighbors": ["CN", "MN", "KZ", "UA"]
+  },
+  "AF": {
+    "name": "Afghanistan",
+    "neighbors": ["PK", "IR", "TM", "UZ", "TJ", "CN"]
+  },
+  "IR": {
+    "name": "Iran",
+    "neighbors": ["PK", "AF", "TM", "AZ", "IQ", "TR"]
+  },
+  "TH": {
+    "name": "Thailand",
+    "neighbors": ["MM", "LA", "KH", "MY"]
+  },
+  "LA": {
+    "name": "Laos",
+    "neighbors": ["MM", "TH", "VN", "CN", "KH"]
+  },
+  "GT": {
+    "name": "Guatemala",
+    "neighbors": ["MX", "BZ", "SV", "HN"]
+  },
+  "BZ": {
+    "name": "Belize",
+    "neighbors": ["MX", "GT"]
+  }
+}
