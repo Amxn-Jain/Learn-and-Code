@@ -1,0 +1,19 @@
+{
+  "name": "assignment-02",
+  "version": "1.0.0",
+  "description": "Console app to find adjacent countries using TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": ["typescript", "console-app"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
